@@ -100,7 +100,7 @@ def extract_city_state(location):
     
 data
 base_url = "https://api.gsa.gov"
-api_key = "gw6OzAZ4ojDeZTz3X0QVRUu3qjdN9hK9zKz6cg0E"  # Insert your API key here
+api_key = ""  # Insert your API key here
 
 endpoint = f"/travel/perdiem/v2/rates/city/" + city + "/state/"+ state +"/year/2025"
 
